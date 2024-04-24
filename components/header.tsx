@@ -2,7 +2,8 @@ import type { NextPage } from "next";
 
 const Header: NextPage = () => {
   return (
-    <div className="absolute h-[55.2%] w-[60.2%] top-[0%] right-[0%] bottom-[44.8%] left-[39.8%] text-center text-sm text-white font-small-3">
+    
+    <div className="absolute h-[55.2%] w-[70.2%] top-[0%] right-[0%] bottom-[44.8%] left-[39.8%] text-center text-sm text-white font-small-3">
       <div className="absolute top-[calc(50%_-_41.95px)] left-[0px] bg-silver w-[1152px] h-[84px] hidden" />
       <div className="absolute top-[calc(50%_-_12.95px)] right-[296.9px] flex flex-row items-start justify-start gap-[28px]">
         <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-lg tracking-[0.2px] leading-[24px] font-medium font-small-3 text-title-text text-center inline-block">{`Masterpiece Installations `}</button>
