@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es6", // Set the target ECMAScript version to ES6
+    "lib": ["dom", "dom.iterable", "es6"], // Include ES6 standard library typings
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,

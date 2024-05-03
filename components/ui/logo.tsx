@@ -5,9 +5,9 @@ function Logo() {
   return (
     <Image
       src="/logo31.svg"
-      className="w-full aspect-[1.85] max-w-[279px]"
-      width={279}
-      height={152} 
+      className="w-full aspect-[1.85] max-w-[150px] logo"
+      width={125}
+      height={50} 
       alt={""}    
       />
   );
