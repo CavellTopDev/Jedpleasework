@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const TestimonialBanner1: NextPage = () => {
   return (
-    <div className="self-stretch bg-white h-[430.1px] flex flex-col items-start justify-center pt-[185.4px] px-[18.4px] pb-[18.4px] box-border gap-[20.2px] z-[0] text-left text-xs-5 text-black font-manrope">
+    <div className="self-stretch bg-white h-[430.1px] flex flex-col items-start justify-center pt-[185.4px] px-[18.4px] pb-[18.4px] box-border gap-[20.2px] z-[0] text-left text-xs-5 text-black font-manrope testimonialcard3">
       <div className="self-stretch flex flex-col items-start justify-start">
         <div className="relative font-extrabold">Mr Bollom</div>
         <div className="relative text-3xs-2 text-dimgray-100 mt-[-2px]">

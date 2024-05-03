@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function EmblaCarousel() {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-        Autoplay({ delay: 200000 })
+        Autoplay({ delay: 2000 })
     ]);
 
     const scrollPrev = useCallback(() => {
@@ -19,34 +19,34 @@ export default function EmblaCarousel() {
 
     return (
         <div className="embla">
-            <div className='embla__viewport mx-auto mt-12 h-56 max-w-lg border' ref={emblaRef}>
+            <div className='embla__viewport mx-auto mt-2 h-100 max-w-lg' ref={emblaRef}>
                 <div className="embla__container h-full">
                 <div className="embla__slide flex items-center justify-center">
-                <Image
-                  src="/logo31.svg"
-                  className="w-full h-full object-cover"
-              width={125}
-             height={125} 
-            alt={""}    
-                />
+        <Image
+          src="/photosix.webp"
+          className="w-full h-full object-cover"
+          width={384}
+          height={347}
+          alt=""
+        />
 </div>
-                    <div className="embla__slide flex items-center justify-center">
-                    <Image
-                  src="/logo31.svg"
-                  className="w-full h-full object-cover"
-              width={125}
-             height={125} 
-            alt={""}    
-                />
+<div className="embla__slide flex items-center justify-center">
+        <Image
+          src="/photofour.webp"
+          className="w-full h-full object-cover"
+          width={384}
+          height={347}
+          alt=""
+        />
                     </div>
                     <div className="embla__slide flex items-center justify-center">
-                    <Image
-      src="/logo31.svg"
-      className="w-full h-full object-cover"
-      width={125}
-      height={125} 
-      alt={""}    
-      />
+        <Image
+          src="/photothree.webp"
+          className="w-full h-full"
+          width={384}
+          height={347}
+          alt=""
+        />
                     </div>
                 </div>
             </div>

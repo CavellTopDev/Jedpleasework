@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const FrameComponent: NextPage = () => {
   return (
-    <div className="self-stretch bg-white h-[462px] flex flex-col items-start justify-center pt-[168.2px] px-[16.7px] pb-[16.7px] box-border gap-[18.3px] z-[0] text-left text-2xs-4 text-black font-manrope">
+    <div className="self-stretch bg-white h-[462px] flex flex-col items-start justify-center pt-[168.2px] px-[16.7px] pb-[16.7px] box-border gap-[18.3px] z-[0] text-left text-2xs-4 text-black font-manrope testimonialcard">
       <div className="self-stretch flex flex-col items-start justify-start">
         <div className="relative font-extrabold">Mrs Rossetti</div>
         <div className="relative text-4xs-4 text-dimgray-100 mt-[-1.8px]">

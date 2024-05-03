@@ -31,8 +31,7 @@ const Footer: NextPage = () => {
         2021
       </div>
       <div className="absolute top-[62.8%] left-[3.3%] text-xs tracking-[0.2px] leading-[16px] text-title-text">
-        ??? Data is a real-time snapshot *Data is delayed at least 15 minutes.
-        Global Olives and Natural product, Market and Analysis.
+        We do not take your data from you
       </div>
       <div className="absolute h-[22.8%] w-[7.29%] top-[20.14%] right-[81.51%] bottom-[57.06%] left-[11.2%] flex flex-col items-start justify-start gap-[12px]">
         <div className="relative tracking-[0.2px] leading-[24px] font-medium">
@@ -52,49 +51,17 @@ const Footer: NextPage = () => {
       </div>
       <div className="absolute h-[22.8%] w-[4.58%] top-[20.14%] right-[64.33%] bottom-[57.06%] left-[31.08%] flex flex-col items-start justify-start gap-[12px]">
         <div className="relative tracking-[0.2px] leading-[24px] font-medium">
-          Pricing
-        </div>
-        <div className="flex flex-col items-start justify-start gap-[12px] text-sm text-title-text">
-          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
-            Bronze
-          </div>
-          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
-            Silver
-          </div>
-          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
-            Gold
-          </div>
-        </div>
-      </div>
-      <div className="absolute h-[36%] w-[5.14%] top-[22.44%] right-[48.51%] bottom-[41.56%] left-[46.35%] flex flex-col items-start justify-start gap-[12px]">
-        <div className="relative tracking-[0.2px] leading-[24px] font-medium">
           Follow
         </div>
         <div className="flex flex-col items-start justify-start gap-[12px] text-sm text-title-text">
-          <div className="w-[34px] relative tracking-[0.1px] leading-[18px] font-medium hidden">
-            Blog
-          </div>
-          <div className="w-[63px] relative tracking-[0.1px] leading-[18px] font-medium hidden">
-            Site Map
+          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
+            Facebook
           </div>
           <div className="relative tracking-[0.1px] leading-[18px] font-medium">
-            <p className="m-0">Facebook</p>
-            <p className="m-0">&nbsp;</p>
-            <p className="m-0">Instagram</p>
-            <p className="m-0">&nbsp;</p>
-            <p className="m-0">Twitter</p>
-            <p className="m-0">&nbsp;</p>
-            <p className="m-0">&nbsp;</p>
+            Instagram
           </div>
+          
         </div>
-      </div>
-      <div className="absolute top-[294px] right-[43.5px] w-[212px] h-8 text-center text-6xl text-background-and-disabled-background-for-buttons">
-        <b className="absolute top-[6.25%] left-[0%] tracking-[0.2px] uppercase">
-          Newsletter
-        </b>
-        <b className="absolute top-[0%] left-[86.32%] text-sm tracking-[0.2px] text-background-and-disabled-background-dark">
-          App
-        </b>
       </div>
     </div>
   );
