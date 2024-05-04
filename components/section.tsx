@@ -11,7 +11,6 @@ const Section: NextPage = () => {
           <div className="self-stretch h-[542px] flex flex-row items-start justify-start gap-[23.1px]">
             <Card2 />
             <Card1 />
-            <Card />
           </div>
         </div>
       </div>
