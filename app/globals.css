@@ -144,7 +144,7 @@ body {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 330px) {
   .section1 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
