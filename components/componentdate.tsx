@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const BookingDate: NextPage = () => {
     return (
-        <div className="absolute top-[3653px] left-[268px] rounded-[5px] w-[845.8px] h-[502px] overflow-hidden text-smi-9 text-slategray font-body-1-medium border-[1px] booking">
+        <div className="absolute top-[3653px] left-[268px] rounded-[5px] w-[900.8px] h-[502px] text-smi-9 text-slategray font-body-1-medium border-[1px] booking">
         <div className="absolute top-[20px] left-[416px] shadow-[0px_34.7px_48.59px_rgba(0,_0,_0,_0.09)] [backdrop-filter:blur(32.13px)] flex flex-row items-start justify-start">
           <div className="w-[409.8px] relative shadow-[0px_7.2px_28.7px_rgba(0,_0,_0,_0.05)] rounded-[22.96px] bg-white h-[462px] overflow-hidden shrink-0">
             <div className="absolute top-[34.4px] left-[0px] w-[410.3px] flex flex-row items-center justify-start py-0 px-[34.4px] box-border gap-[146.3px] text-left text-sm text-dimgray-200">

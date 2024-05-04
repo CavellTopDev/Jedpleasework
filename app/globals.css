@@ -139,7 +139,16 @@ body {
   .section1 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin-left: 36%; /* Reset margin-right */
+    margin-left: 35%; /* Reset margin-right */
+    transform: scale(0.5); /* Scale down to 80% */
+  }
+}
+
+@media (max-width: 360px) {
+  .section1 {
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 55%; /* Reset margin-right */
     transform: scale(0.5); /* Scale down to 80% */
   }
 }
@@ -196,6 +205,15 @@ body {
   }
 }
 
+@media (max-width: 360px) {
+  .booking {
+    width: 190%; /* Adjust width as needed */
+    transform: scale(0.7); /* Scale down to 80% */
+    margin-left: -130%; /* Set horizontal margin to auto */
+    display: block; /* Ensure it behaves as a block-level element */
+  }
+}
+
 
 @media (max-width: 768px) {
   .hero2 {
@@ -227,8 +245,16 @@ body {
 
 @media (max-width: 430px) {
   .bannertext1 {
-    transform: scale(0.7); /* Scale down to 60% */
+    transform: scale(0.6); /* Scale down to 60% */
     margin-left: -35%; /* Set horizontal margin to auto */
+    margin-top: -5%; /* Move up */
+  }
+}
+
+@media (min-width: 360px) {
+  .bannertext1 {
+    transform: scale(0.6); /* Scale down to 60% */
+    margin-left: -36%; /* Set horizontal margin to auto */
     margin-top: -5%; /* Move up */
   }
 }
