@@ -144,7 +144,7 @@ body {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 375px) {
   .section1 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
@@ -292,10 +292,18 @@ body {
 
 @media (max-width: 430px) {
   .brandingdeal {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -50%; /* Set horizontal margin to auto */
-    margin-top: -15%; /* Move up */
+    transform: scale(0.67); /* Scale down to 60% */
+    margin-left: -60%; /* Set horizontal margin to auto */
+    margin-top: -80%; /* Move up */
     font-size: 80%; /* Adjust font size to 80% of the original */
     
+  }
+}
+
+@media (max-width: 1314px) {
+  .housing {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-top: 30%; /* Move up */
+    margin-left: -250%; /* Set horizontal margin to auto */    
   }
 }
