@@ -129,22 +129,32 @@ body {
 @media (max-width: 768px) {
   .section1 {
     width: 100%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 20%; /* Reset margin-right */
-    transform: scale(1.0); /* Scale down to 80% */
+    height: 10%; /* Maintain aspect ratio */
+    margin-left: 47%; /* Reset margin-right */
+    transform: scale(0.8); /* Scale down to 80% */
   }
 }
 
-@media (max-width: 425px) {
-  .bannerpic {
-    width: 40%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 20%; /* Reset margin-right */
+@media (max-width: 430px) {
+  .section1 {
+    width: 150%; /* Adjust width as needed */
+    height: 10%; /* Maintain aspect ratio */
+    margin-left: 41%; /* Reset margin-right */
     transform: scale(0.7); /* Scale down to 80% */
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
+  .bannerpic {
+    width: 40%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10%; /* Reset margin-right */
+    transform: scale(0.7); /* Scale down to 80% */
+  }
+}
+
+
+@media (max-width: 430px) {
   .bannerbackground {
     margin-left: 1%; /* Reset margin-right */
     transform: scale(0.6); /* Scale down to 80% */
@@ -177,7 +187,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .booking {
     width: 180%; /* Adjust width as needed */
     transform: scale(0.7); /* Scale down to 80% */
@@ -193,7 +203,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .hero2 {
     transform: scale(0.6); /* Scale down to 60% */
     font-size: 80%; /* Adjust font size to 80% of the original */
@@ -215,7 +225,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .bannertext1 {
     transform: scale(0.8); /* Scale down to 60% */
     margin-left: -35%; /* Set horizontal margin to auto */
@@ -223,7 +233,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .bannertext2 {
     transform: scale(0.8); /* Scale down to 60% */
     margin-left: -14%; /* Set horizontal margin to auto */
@@ -234,7 +244,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .bookingcard {
     transform: scale(0.8); /* Scale down to 60% */
     margin-left: -65%; /* Set horizontal margin to auto */
@@ -245,28 +255,18 @@ body {
   }
 
 }
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .booking{
     transform: scale(0.5); /* Scale down to 60% */
     margin-top: -15%; /* Move up */
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .brandingdeal {
     transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -49%; /* Set horizontal margin to auto */
-    margin-top: -80%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    
-  }
-}
-
-@media (max-width: 425px) {
-  .brandingdeal {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -49%; /* Set horizontal margin to auto */
-    margin-top: -80%; /* Move up */
+    margin-left: -50%; /* Set horizontal margin to auto */
+    margin-top: -15%; /* Move up */
     font-size: 80%; /* Adjust font size to 80% of the original */
     
   }
