@@ -137,10 +137,10 @@ body {
 
 @media (max-width: 430px) {
   .section1 {
-    width: 150%; /* Adjust width as needed */
-    height: 10%; /* Maintain aspect ratio */
-    margin-left: 41%; /* Reset margin-right */
-    transform: scale(0.7); /* Scale down to 80% */
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 36%; /* Reset margin-right */
+    transform: scale(0.5); /* Scale down to 80% */
   }
 }
 
