@@ -27,7 +27,7 @@ const Mastercraft: NextPage = () => {
       <Section />
      <Bookingsection />
       <Image
-        className="absolute top-[5486.9px] left-[869px] w-[552px] h-[729.1px]"
+        className="absolute top-[5486.9px] left-[869px] w-[552px] h-[729.1px] housing"
         alt=""
         src="/Housing SVG.svg"
         height={729}

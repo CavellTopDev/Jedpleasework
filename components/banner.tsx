@@ -10,9 +10,9 @@ const Banner: NextPage = () => {
         <div className="absolute top-[82px] left-[630px] text-[35.8px] leading-[119.7%] text-black inline-block w-[355px] h-[54px] bannertext1">
           Crafted Installations
         </div>
-        <div className="absolute top-[37.1px] left-[79.8px] bg-teal-200 w-[509px] h-[398.9px]" />
+        <div className="absolute top-[37.1px] left-[79.8px] bg-teal-200 w-[509px] h-[398.9px] bannerbackground" />
         <Image
-          className="absolute top-[59.2px] left-[59.2px] rounded-[11.91px] w-[501.1px] h-[426.7px] object-cover"
+          className="absolute top-[59.2px] left-[59.2px] rounded-[11.91px] w-[501.1px] h-[426.7px] object-cover bannerpic"
           alt=""
           src="/photofive.webp"
           width={501}

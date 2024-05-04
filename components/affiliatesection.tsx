@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Affiliatebrands() {
   return (
     
-      <div className="absolute top-[5610px] left-[161px] w-[495px] flex flex-col items-center justify-end gap-[17px] text-13xl text-black">
+      <div className="absolute top-[5610px] left-[161px] w-[495px] flex flex-col items-center justify-end gap-[17px] text-13xl text-black brandingdeal">
         <div className="self-stretch relative tracking-[0.1px] leading-[42px] font-semibold">
           Trusted Brands We Work With !
         </div>

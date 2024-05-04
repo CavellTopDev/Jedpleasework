@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 
 const Bookingsection: NextPage = () => {
   return (
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center px-16 text-center max-w-[861px] max-md:px-5">
+    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center px-16 text-center max-w-[861px] max-md:px-5 bookingcard">
       <div className="flex flex-col justify-center max-w-full w-[519px]">
      <div className="text-3xl font-semibold tracking-tight leading-8 text-zinc-950 max-md:max-w-full">
       Ready to Chat? Complete Our Form Then Book a Call !
