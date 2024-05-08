@@ -174,9 +174,10 @@ body {
 
 @media (max-width: 430px) {
   .bannerpic {
-    width: 40%; /* Adjust width as needed */
+    width: 45%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-left: 10%; /* Reset margin-right */
+    margin-top: -3%; /* Move up */
     transform: scale(0.7); /* Scale down to 80% */
   }
 }
@@ -194,8 +195,8 @@ body {
   .bannerbackground {
     margin-left: 1%; /* Reset margin-right */
     transform: scale(0.6); /* Scale down to 80% */
-    margin-top: -4%; /* Move up */
-    width: 65%; /* Adjust width as needed */
+    margin-top: -4.3%; /* Move up */
+    width: 50%; /* Adjust width as needed */
   }
 }
 
@@ -329,12 +330,12 @@ body {
 
 @media (max-width: 430px) {
   .bannertext2 {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -14%; /* Set horizontal margin to auto */
-    margin-top: -7%; /* Move up */
+    transform: scale(0.9); /* Scale down to 60% */
+    margin-left: -35%; /* Set horizontal margin to auto */
+    margin-top: 15%; /* Move up */
     font-size: 80%; /* Adjust font size to 80% of the original */
     transform: scale(0.8); /* Scale down to 60% */
-    width: 23%; /* Adjust width as needed */
+    width: 40%; /* Adjust width as needed */
   }
 }
 
@@ -348,6 +349,8 @@ body {
     width: 39%; /* Adjust width as needed */
   }
 }
+
+
 
 @media (max-width: 430px) {
   .bookingcard {
@@ -392,8 +395,8 @@ body {
 
 @media (max-width: 430px) {
   .brandingdeal {
-    transform: scale(0.67); /* Scale down to 60% */
-    margin-left: -60%; /* Set horizontal margin to auto */
+    transform: scale(0.60); /* Scale down to 60% */
+    margin-left: -80%; /* Set horizontal margin to auto */
     margin-top: -80%; /* Move up */
     font-size: 80%; /* Adjust font size to 80% of the original */
     
