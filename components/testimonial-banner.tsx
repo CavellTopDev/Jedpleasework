@@ -5,9 +5,9 @@ const TestimonialBanner: NextPage = () => {
   return (
     <div className="self-stretch bg-white h-[462.3px] flex flex-col items-start justify-center pt-[199.3px] px-[19.8px] pb-[19.8px] box-border gap-[21.7px] z-[0] text-left text-smi-4 text-black font-manrope testimonialcard2">
       <div className="self-stretch flex flex-col items-start justify-start">
-        <div className="relative font-extrabold">Mr Everett</div>
+        <div className="relative font-extrabold">Page</div>
         <div className="relative text-3xs-9 text-dimgray-100 mt-[-2.2px]">
-          Islington, London
+          Tankerton, Kent
         </div>
       </div>
       <div className="self-stretch relative text-xs font-body-1-medium inline-block h-32 shrink-0">

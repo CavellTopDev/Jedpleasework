@@ -153,6 +153,15 @@ body {
   }
 }
 
+@media (max-width: 430px) {
+  .section2 {
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 35%; /* Reset margin-right */
+    transform: scale(0.5); /* Scale down to 80% */
+  }
+}
+
 @media (max-width: 375px) {
   .section1 {
     width: 160%; /* Adjust width as needed */
@@ -162,9 +171,26 @@ body {
   }
 }
 
+@media (max-width: 375px) {
+  .section2 {
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 55%; /* Reset margin-right */
+    transform: scale(0.5); /* Scale down to 80% */
+  }
+}
 
 @media (max-width: 330px) {
   .section1 {
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 70%; /* Reset margin-right */
+    transform: scale(0.67); /* Scale down to 80% */
+  }
+}
+
+@media (max-width: 330px) {
+  .section2 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-left: 70%; /* Reset margin-right */
@@ -177,6 +203,16 @@ body {
     width: 45%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-left: 10%; /* Reset margin-right */
+    margin-top: -3%; /* Move up */
+    transform: scale(0.7); /* Scale down to 80% */
+  }
+}
+
+@media (max-width: 375px) {
+  .bannerpic {
+    width: 45%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 18%; /* Reset margin-right */
     margin-top: -3%; /* Move up */
     transform: scale(0.7); /* Scale down to 80% */
   }
@@ -350,6 +386,29 @@ body {
   }
 }
 
+@media (max-width: 375px) {
+  .bannertext2 {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-left: -28%; /* Set horizontal margin to auto */
+    margin-top: 15%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    transform: scale(0.8); /* Scale down to 60% */
+    width: 39%; /* Adjust width as needed */
+  }
+}
+
+@media (max-width: 390px) {
+  .bannertext2 {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-left: -34%; /* Set horizontal margin to auto */
+    margin-top: 15%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    transform: scale(0.8); /* Scale down to 60% */
+    width: 39%; /* Adjust width as needed */
+  }
+}
+
+
 
 
 @media (max-width: 430px) {
@@ -414,6 +473,35 @@ body {
 }
 
 @media (max-width: 375px) {
+  .brandingdeal {
+    transform: scale(0.67); /* Scale down to 60% */
+    margin-left: -65%; /* Set horizontal margin to auto */
+    margin-top: -90%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
+@media (max-width: 414px) {
+  .brandingdeal {
+    transform: scale(0.67); /* Scale down to 60% */
+    margin-left: -58%; /* Set horizontal margin to auto */
+    margin-top: -90%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
+@media (max-width: 1024px) {
+  .brandingdeal {
+    margin-left: -15%; /* Set horizontal margin to auto */
+    margin-top: -33%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
+@media (max-width: 375px) {
   .housing {
     transform: scale(0.8); /* Scale down to 60% */
     margin-top: 30%; /* Move up */
@@ -428,3 +516,53 @@ body {
     margin-left: -280%; /* Set horizontal margin to auto */    
   }
 }
+
+@media (max-width: 390px) {
+  .housing {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-top: 30%; /* Move up */
+    margin-left: -0%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width: 414px) {
+  .housing {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-top: 30%; /* Move up */
+    margin-left: -220%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width: 1024px) {
+  .housing {
+    margin-top: 0%; /* Move up */
+    margin-left: -38%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width: 768px) {
+  .housing {
+    margin-top: 0%; /* Move up */
+    margin-left: -68%; /* Set horizontal margin to auto */    
+  }
+}
+@media (min-width: 500px) {
+  .section2 {
+    display: none;
+    margin-top: 30%; /* Move up */
+    transform: scale(0.5); /* Scale down to 80% */
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonial1 {
+    margin-left: -23%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial1 {
+    margin-left: -42%; /* Set horizontal margin to auto */    
+  }
+}
+

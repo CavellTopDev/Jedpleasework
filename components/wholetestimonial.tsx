@@ -33,16 +33,16 @@ const Testimoniallove: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-[74px] left-[625px] w-[746.7px] flex flex-row items-end justify-between">
+        <div className="absolute top-[74px] left-[625px] w-[746.7px] flex flex-row items-end justify-between testimonial1">
           <div className="w-[174px] h-[512.1px] overflow-hidden shrink-0 flex flex-col items-center justify-start">
             <div className="w-[174px] shadow-[0px_25.1px_33.42px_rgba(0,_0,_0,_0.25)] rounded-[8.36px] h-[462px] overflow-hidden shrink-0 flex flex-col items-start justify-center relative frame1">
               <FrameComponent />
-              <div className="w-[173.9px] !m-[0] absolute top-[0px] left-[0px] h-[156.7px] flex flex-col items-center justify-start z-[1]">
+              <div className="w-[180.9px] !m-[0] absolute top-[0px] left-[0px] h-[156.7px] flex flex-col items-center justify-start z-[1]">
                 <Image
                   className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
                   alt=""
-                  src="/businessman1.webp"
-                  width={170}
+                  src="/Rossetti.webp"
+                  width={176}
                   height={155}
                 />
               </div>
@@ -55,8 +55,8 @@ const Testimoniallove: NextPage = () => {
                 <Image
                   className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
                   alt=""
-                  src="/businesswoman1.webp"
-                  width={190}
+                  src="/Bolton.webp"
+                  width={192}
                   height={170}
                 />
               </div>
@@ -68,8 +68,8 @@ const Testimoniallove: NextPage = () => {
                   <Image
                     className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/businesswoman2.webp"
-                    width={205}
+                    src="/Page.webp"
+                    width={206}
                     height={185}
 
                   />

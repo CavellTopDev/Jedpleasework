@@ -16,6 +16,7 @@ import Banner from "@/components/banner";
 import Bookingsection from "@/components/Booking";
 import Affiliatebrands from "@/components/affiliatesection";
 import Headerlife from "@/components/header3";
+import Section2 from "@/components/section2";
 
 const Mastercraft: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Mastercraft: NextPage = () => {
       <Testimoniallove />
       <Banner />
       <Section />
+      <Section2 />
      <Bookingsection />
       <Image
         className="absolute top-[5486.9px] left-[869px] w-[552px] h-[729.1px] housing"
