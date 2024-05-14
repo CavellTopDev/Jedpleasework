@@ -33,8 +33,8 @@ const Testimoniallove: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-[74px] left-[625px] w-[746.7px] flex flex-row items-end justify-between testimonial1">
-          <div className="w-[174px] h-[512.1px] overflow-hidden shrink-0 flex flex-col items-center justify-start">
+        <div className="absolute top-[74px] left-[625px] w-[650.7px] flex flex-row items-end justify-between testimonial1">
+          <div className="w-[174px] h-[512.1px] overflow-hidden shrink-0 flex flex-col items-center justify-start testimonialcard1">
             <div className="w-[174px] shadow-[0px_25.1px_33.42px_rgba(0,_0,_0,_0.25)] rounded-[8.36px] h-[462px] overflow-hidden shrink-0 flex flex-col items-start justify-center relative frame1">
               <FrameComponent />
               <div className="w-[180.9px] !m-[0] absolute top-[0px] left-[0px] h-[156.7px] flex flex-col items-center justify-start z-[1]">
@@ -49,7 +49,7 @@ const Testimoniallove: NextPage = () => {
             </div>
           </div>
           <div className="w-[467.1px] overflow-hidden shrink-0 flex flex-row items-end justify-between">
-            <div className="w-[191.7px] shadow-[0px_27.6px_36.85px_rgba(0,_0,_0,_0.25)] rounded-[9.21px] h-[430.1px] overflow-hidden shrink-0 flex flex-col items-start justify-center relative frame2">
+            <div className="w-[191.7px] shadow-[0px_27.6px_36.85px_rgba(0,_0,_0,_0.25)] rounded-[9.21px] h-[430.1px] overflow-hidden shrink-0 flex flex-col items-start justify-center relative testimonialcard2">
               <TestimonialBanner1 />
               <div className="w-[191.7px] !m-[0] absolute top-[0px] left-[0px] h-[172.7px] flex flex-col items-center justify-start z-[1]">
                 <Image
@@ -61,7 +61,7 @@ const Testimoniallove: NextPage = () => {
                 />
               </div>
             </div>
-            <div className="w-[206.1px] h-[492.1px] overflow-hidden shrink-0 flex flex-col items-center justify-start frame3">
+            <div className="w-[206.1px] h-[492.1px] overflow-hidden shrink-0 flex flex-col items-center justify-start testimonialcard3">
               <div className="w-[206.1px] shadow-[0px_29.7px_39.61px_rgba(0,_0,_0,_0.25)] rounded-[9.9px] h-[462.3px] overflow-hidden shrink-0 flex flex-col items-start justify-center relative">
                 <TestimonialBanner />
                 <div className="w-[206.1px] !m-[0] absolute top-[0px] left-[0px] h-[185.7px] flex flex-col items-center justify-start z-[1]">

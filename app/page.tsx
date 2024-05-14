@@ -18,6 +18,7 @@ import Affiliatebrands from "@/components/affiliatesection";
 import Headerlife from "@/components/header3";
 import Section2 from "@/components/section2";
 
+
 const Mastercraft: NextPage = () => {
   return (
     <div className="w-full relative bg-white h-[6840px] overflow-hidden text-center text-21xl text-gray-100 font-plus-jakarta-sans">

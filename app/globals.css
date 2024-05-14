@@ -117,14 +117,6 @@ body {
   }
 }
 
-@media (max-width: 425px) {
-  .section2 {
-    width: 160%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 80%; /* Reset margin-right */
-    transform: scale(1.0); /* Scale down to 80% */
-  }
-}
 
 @media (max-width: 330px) {
   .section2 {
@@ -153,51 +145,56 @@ body {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 490px) {
   .section2 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
+    margin-left: 35%; /* Reset margin-right */
+    margin-top: -50%;
+    transform: scale(0.5); /* Scale down to 80% */
+  }
+}
+
+@media (max-width: 390px) {
+  .section1 {
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -80%;
+    margin-left: 55%; /* Reset margin-right */
+    transform: scale(0.5); /* Scale down to 80% */
+  }
+}
+
+@media (max-width: 330px) {
+  .section1 {
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 70%; /* Reset margin-right */
+    transform: scale(0.67); /* Scale down to 80% */
+  }
+}
+
+@media (max-width: 490px) {
+  .section1 {
+    width: 160%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -60%;
     margin-left: 35%; /* Reset margin-right */
     transform: scale(0.5); /* Scale down to 80% */
   }
 }
 
-@media (max-width: 375px) {
-  .section1 {
-    width: 160%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 55%; /* Reset margin-right */
-    transform: scale(0.5); /* Scale down to 80% */
-  }
-}
 
-@media (max-width: 375px) {
+
+@media (max-width: 390px) {
   .section2 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin-left: 55%; /* Reset margin-right */
+    margin-left: 55%;
+    margin-top: -10%;
     transform: scale(0.5); /* Scale down to 80% */
   }
 }
-
-@media (max-width: 330px) {
-  .section1 {
-    width: 160%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 70%; /* Reset margin-right */
-    transform: scale(0.67); /* Scale down to 80% */
-  }
-}
-
-@media (max-width: 330px) {
-  .section2 {
-    width: 160%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 70%; /* Reset margin-right */
-    transform: scale(0.67); /* Scale down to 80% */
-  }
-}
-
 @media (max-width: 430px) {
   .bannerpic {
     width: 45%; /* Adjust width as needed */
@@ -452,31 +449,30 @@ body {
   }
 }
 
+
+@media (max-width: 1024px) {
+  .brandingdeal {
+    margin-left: -6%; /* Set horizontal margin to auto */
+    
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .brandingdeal {
+    margin-left: -20%; /* Set horizontal margin to auto */
+    margin-top: -50%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
 @media (max-width: 430px) {
   .brandingdeal {
-    transform: scale(0.60); /* Scale down to 60% */
-    margin-left: -80%; /* Set horizontal margin to auto */
-    margin-top: -80%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    
-  }
-}
-
-@media (max-width: 330px) {
-  .brandingdeal {
-    transform: scale(0.67); /* Scale down to 60% */
-    margin-left: -70%; /* Set horizontal margin to auto */
-    margin-top: -90%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    
-  }
-}
-
-@media (max-width: 375px) {
-  .brandingdeal {
-    transform: scale(0.67); /* Scale down to 60% */
-    margin-left: -65%; /* Set horizontal margin to auto */
-    margin-top: -90%; /* Move up */
+    transform: scale(0.9); /* Scale down to 60% */
+    margin-left: -45%; /* Set horizontal margin to auto */
+    margin-top: -50%; /* Move up */
     font-size: 80%; /* Adjust font size to 80% of the original */
     
   }
@@ -484,68 +480,62 @@ body {
 
 @media (max-width: 414px) {
   .brandingdeal {
-    transform: scale(0.67); /* Scale down to 60% */
-    margin-left: -58%; /* Set horizontal margin to auto */
-    margin-top: -90%; /* Move up */
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-left: -49%; /* Set horizontal margin to auto */
+    margin-top: -50%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
+@media (max-width: 390px) {
+  .brandingdeal {
+    transform: scale(0.7); /* Scale down to 60% */
+    margin-left: -59%; /* Set horizontal margin to auto */
+    margin-top: -50%; /* Move up */
     font-size: 80%; /* Adjust font size to 80% of the original */
     
   }
 }
 
 @media (max-width: 1024px) {
-  .brandingdeal {
-    margin-left: -15%; /* Set horizontal margin to auto */
-    margin-top: -33%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    
+  .housing {
+    margin-top: 12%; /* Move up */
+    margin-left: -36%; /* Set horizontal margin to auto */    
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .housing {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-top: 30%; /* Move up */
-    margin-left: -250%; /* Set horizontal margin to auto */    
+    margin-top: 20%; /* Move up */
+    margin-left: -70%; /* Set horizontal margin to auto */    
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 567px) {
   .housing {
     transform: scale(0.8); /* Scale down to 60% */
-    margin-top: 30%; /* Move up */
-    margin-left: -280%; /* Set horizontal margin to auto */    
+    margin-top: 35%; /* Move up */
+    margin-left: -115%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width: 430px) {
+  .housing {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-top: 57%; /* Move up */
+    margin-left: -189%; /* Set horizontal margin to auto */    
   }
 }
 
 @media (max-width: 390px) {
   .housing {
     transform: scale(0.8); /* Scale down to 60% */
-    margin-top: 30%; /* Move up */
-    margin-left: -0%; /* Set horizontal margin to auto */    
+    margin-top: 57%; /* Move up */
+    margin-left: -230%; /* Set horizontal margin to auto */    
   }
 }
 
-@media (max-width: 414px) {
-  .housing {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-top: 30%; /* Move up */
-    margin-left: -220%; /* Set horizontal margin to auto */    
-  }
-}
-
-@media (max-width: 1024px) {
-  .housing {
-    margin-top: 0%; /* Move up */
-    margin-left: -38%; /* Set horizontal margin to auto */    
-  }
-}
-
-@media (max-width: 768px) {
-  .housing {
-    margin-top: 0%; /* Move up */
-    margin-left: -68%; /* Set horizontal margin to auto */    
-  }
-}
 @media (min-width: 500px) {
   .section2 {
     display: none;
@@ -565,4 +555,17 @@ body {
     margin-left: -42%; /* Set horizontal margin to auto */    
   }
 }
+
+@media (max-width: 375px) {
+  .testimonialcard1 {
+    margin-top: -35%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width: 375px) {
+  .testimonialcard2 {
+    margin-top: 30%; /* Set horizontal margin to auto */    
+  }
+}
+
 

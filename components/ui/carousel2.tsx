@@ -19,7 +19,7 @@ export default function EmblaCarousel() {
 
     return (
         <div className="embla">
-            <div className='embla__viewport mx-auto mt-2 h-100 max-w-lg' ref={emblaRef}>
+            <div className='embla__viewport mx-auto mt-2 max-w-lg rounded-lg overflow-hidden' ref={emblaRef}>
                 <div className="embla__container h-full">
                 <div className="embla__slide flex items-center justify-center">
         <Image
