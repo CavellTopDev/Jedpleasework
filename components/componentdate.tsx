@@ -12,13 +12,6 @@ const BookingDate: NextPage = () => {
               </div>
               <div className="flex flex-row items-start justify-start gap-[34.4px]">
                 <Image
-                  className="w-[23px] relative h-[23px] overflow-hidden shrink-0"
-                  src=""
-                  alt=""
-                  width={20}
-                  height={20}
-                />
-                <Image
                   className="w-[23px] relative h-[23px] overflow-hidden shrink-0 object-contain"
                   alt=""
                   src="/iconright.svg"

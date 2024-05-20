@@ -4,6 +4,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/Booking/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -79,11 +80,11 @@ module.exports = {
       },
     },
     screens: {
-      'sm': '640px',
+      'sm': '490px',
       'md': '768px',
       'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+      'xl': '1440px',
+      '2xl': '1636px',
     },
     fontSize: {
       base: "16px",

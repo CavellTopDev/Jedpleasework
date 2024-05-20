@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Footer: NextPage = () => {
   return (
-    <div className="absolute top-[6340px] left-[0px] w-[1440px] h-[500px] text-left text-lg text-main-dark font-small-3">
+    <div className="absolute top-[6340px] left-[0px] w-[1440px] h-[500px] text-left text-lg text-main-dark font-small-3 footer">
       <div className="absolute h-full w-full top-[-0.54%] right-[0%] bottom-[0.54%] left-[0%] bg-white" />
       <Image
         className="absolute h-[71.42%] w-[97.4%] top-[3.78%] right-[1.3%] bottom-[24.8%] left-[1.31%] max-w-full overflow-hidden max-h-full"
@@ -33,7 +33,7 @@ const Footer: NextPage = () => {
       <div className="absolute top-[62.8%] left-[3.3%] text-xs tracking-[0.2px] leading-[16px] text-title-text">
         We do not take your data from you
       </div>
-      <div className="absolute h-[22.8%] w-[7.29%] top-[20.14%] right-[81.51%] bottom-[57.06%] left-[11.2%] flex flex-col items-start justify-start gap-[12px]">
+      <div className="absolute h-[22.8%] w-[7.29%] top-[20.14%] right-[81.51%] bottom-[57.06%] left-[11.2%] flex flex-col items-start justify-start gap-[12px] footersubtitles">
         <div className="relative tracking-[0.2px] leading-[24px] font-medium">
           Get started
         </div>
@@ -49,7 +49,7 @@ const Footer: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="absolute h-[22.8%] w-[4.58%] top-[20.14%] right-[64.33%] bottom-[57.06%] left-[31.08%] flex flex-col items-start justify-start gap-[12px]">
+      <div className="absolute h-[22.8%] w-[4.58%] top-[20.14%] right-[64.33%] bottom-[57.06%] left-[31.08%] flex flex-col items-start justify-start gap-[12px] footersubtitles2">
         <div className="relative tracking-[0.2px] leading-[24px] font-medium">
           Follow
         </div>
