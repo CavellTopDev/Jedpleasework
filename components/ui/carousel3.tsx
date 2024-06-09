@@ -34,7 +34,7 @@ function Carouselly() {
   };
 
   return (
-    <div className="absolute top-[231px] left-[calc(50%_-_672px)] w-[1343px] h-[540.8px] flex flex-col items-center justify-start py-[37.6px] px-[60.2px] box-border gap-[22.6px]">
+    <div className="absolute top-[231px] left-[calc(50%_-_672px)] w-[1343px] h-[540.8px] flex flex-col items-center justify-start py-[37.6px] px-[60.2px] box-border gap-[22.6px] carouselsy">
       <div className='max-w-[700px] h-[480px] w-full m-auto py-16 px-4 relative group'>
       <Image
   src={slides[currentIndex] || ''}

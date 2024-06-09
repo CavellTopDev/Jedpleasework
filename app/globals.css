@@ -106,6 +106,13 @@ body {
   }
 }
 
+@media (max-width: 430px) {
+  .titlestart {
+    margin-left: -7%;
+    transform: scale(0.8); /* Scale down to 80% */
+  }
+}
+
 @media (max-width: 1600px) {
   .buttonone {
     width: 100%; /* Adjust as needed */
@@ -114,64 +121,66 @@ body {
 }
 
 
-@media (max-width: 330px) {
-  .section2 {
+@media (max-width: 440px) {
+  .section1 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 80%; /* Reset margin-right */
-    transform: scale(1.0); /* Scale down to 80% */
+    margin-top: -50%;
+    margin-left: 35%; /* Reset margin-right */
+    transform: scale(0.5); /* Scale down to 80% */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 390px) {
   .section1 {
-    width: 100%; /* Adjust width as needed */
-    height: 10%; /* Maintain aspect ratio */
-    margin-left: 15%; /* Reset margin-right */
-    transform: scale(0.8); /* Scale down to 80% */
+    
+    margin-left: 48%; /* Reset margin-right */
   }
 }
+
+@media (max-width: 375px) {
+  .section1 {
+    
+    margin-left: 52%; /* Reset margin-right */
+  }
+}
+
+@media (max-width: 320px) {
+  .section1 {
+    
+    margin-left: 75%; /* Reset margin-right */
+  }
+}
+
 
 @media (max-width: 430px) {
-  .section1 {
-    width: 160%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: -50%;
-    margin-left: 35%; /* Reset margin-right */
-    transform: scale(0.5); /* Scale down to 80% */
-  }
-}
-
-@media (max-width: 490px) {
   .section2 {
     width: 160%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin-left: 35%; /* Reset margin-right */
+    margin-left: 35%;
     margin-top: -50%;
     transform: scale(0.5); /* Scale down to 80% */
   }
 }
 
 @media (max-width: 390px) {
-  .section1 {
-    width: 160%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: -50%;
-    margin-left: 48%; /* Reset margin-right */
-    transform: scale(0.5); /* Scale down to 80% */
-  }
-}
-
-
-@media (max-width: 390px) {
   .section2 {
-    width: 160%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 48%;
-    margin-top: -50%;
-    transform: scale(0.5); /* Scale down to 80% */
+    margin-left: 49%; /* Reset margin-right */
   }
 }
+ 
+@media (max-width: 375px) {
+  .section2 {
+    margin-left: 53%; /* Reset margin-right */
+  }
+}
+
+@media (max-width: 320px) {
+  .section2 {
+    margin-left: 75%; /* Reset margin-right */
+  }
+}
+
 @media (max-width: 430px) {
   .bannerpic {
     width: 45%; /* Adjust width as needed */
@@ -287,7 +296,7 @@ body {
 
 @media (max-width: 330px) {
   .hero2 {
-    transform: scale(0.6); /* Scale down to 60% */
+    transform: scale(0.5); /* Scale down to 60% */
     font-size: 80%; /* Adjust font size to 80% of the original */
   }
 }
@@ -296,93 +305,60 @@ body {
 @media (max-width: 768px) {
   .bannertext1 {
     transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -5%; /* Set horizontal margin to auto */
-  }
-}
-
-@media (max-width: 768px) {
-  .bannertext2 {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -5%; /* Set horizontal margin to auto */
-  }
-}
-
-@media (max-width: 330px) {
-  .bannertext2 {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -5%; /* Set horizontal margin to auto */
+    margin-left: -7%; /* Set horizontal margin to auto */
   }
 }
 
 @media (max-width: 430px) {
   .bannertext1 {
-    transform: scale(0.6); /* Scale down to 60% */
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-top: 26%;
     margin-left: -35%; /* Set horizontal margin to auto */
-    margin-top: -5%; /* Move up */
-  }
-}
-
-@media (min-width: 360px) {
-  .bannertext1 {
-    transform: scale(0.6); /* Scale down to 60% */
-    margin-left: -36%; /* Set horizontal margin to auto */
-    margin-top: -5%; /* Move up */
-  }
-}
-
-@media (min-width: 330px) {
-  .bannertext1 {
-    transform: scale(0.6); /* Scale down to 60% */
-    margin-left: -33%; /* Set horizontal margin to auto */
-    margin-top: -5%; /* Move up */
-  }
-}
-
-@media (max-width: 430px) {
-  .bannertext2 {
-    transform: scale(0.9); /* Scale down to 60% */
-    margin-left: -35%; /* Set horizontal margin to auto */
-    margin-top: 15%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    transform: scale(0.8); /* Scale down to 60% */
-    width: 40%; /* Adjust width as needed */
-  }
-}
-
-@media (max-width: 330px) {
-  .bannertext2 {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -31%; /* Set horizontal margin to auto */
-    margin-top: 15%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    transform: scale(0.8); /* Scale down to 60% */
-    width: 39%; /* Adjust width as needed */
-  }
-}
-
-@media (max-width: 375px) {
-  .bannertext2 {
-    transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -28%; /* Set horizontal margin to auto */
-    margin-top: 15%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    transform: scale(0.8); /* Scale down to 60% */
-    width: 39%; /* Adjust width as needed */
   }
 }
 
 @media (max-width: 390px) {
-  .bannertext2 {
+  .bannertext1 {
     transform: scale(0.8); /* Scale down to 60% */
-    margin-left: -34%; /* Set horizontal margin to auto */
-    margin-top: 15%; /* Move up */
-    font-size: 80%; /* Adjust font size to 80% of the original */
-    transform: scale(0.8); /* Scale down to 60% */
-    width: 39%; /* Adjust width as needed */
+    margin-top: 26%;
+    margin-left: -33%; /* Set horizontal margin to auto */
+  }
+}
+
+@media (max-width: 320px) {
+  .bannertext1 {
+    transform: scale(0.6); /* Scale down to 60% */
+    margin-top: 26%;
+    margin-left: -33%; /* Set horizontal margin to auto */
   }
 }
 
 
+@media (max-width: 768px) {
+  .bannertext2 {
+    margin-left: -6%; /* Set horizontal margin to auto */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    transform: scale(0.8); /* Scale down to 60% */
+    width: 35%; /* Adjust width as needed */
+  }
+}
+
+
+@media (max-width: 430px) {
+  .bannertext2 {
+    transform: scale(0.7); /* Scale down to 60% */
+    margin-top: 20%;
+    margin-left: -35%;
+  }
+}
+
+@media (max-width: 320px) {
+  .bannertext2 {
+    transform: scale(0.7); /* Scale down to 60% */
+    margin-top: 20%;
+    margin-left: -30%;
+  }
+}
 
 
 @media (max-width: 430px) {
@@ -475,6 +451,26 @@ body {
   }
 }
 
+@media (max-width: 360px) {
+  .brandingdeal {
+    transform: scale(0.7); /* Scale down to 60% */
+    margin-left: -62%; /* Set horizontal margin to auto */
+    margin-top: -80%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
+@media (max-width: 320px) {
+  .brandingdeal {
+    transform: scale(0.6); /* Scale down to 60% */
+    margin-left: -76%; /* Set horizontal margin to auto */
+    margin-top: -80%; /* Move up */
+    font-size: 80%; /* Adjust font size to 80% of the original */
+    
+  }
+}
+
 @media (max-width: 1024px) {
   .housing {
     margin-top: 12%; /* Move up */
@@ -513,6 +509,22 @@ body {
   }
 }
 
+@media (max-width: 390px) {
+  .housing {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-top: 57%; /* Move up */
+    margin-left: -230%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width: 320px) {
+  .housing {
+    transform: scale(0.8); /* Scale down to 60% */
+    margin-top: 57%; /* Move up */
+    margin-left: -280%; /* Set horizontal margin to auto */    
+  }
+}
+
 @media (min-width: 500px) {
   .section2 {
     display: none;
@@ -530,6 +542,13 @@ body {
 @media (max-width: 768px) {
   .testimonial1 {
     margin-left: -42%; /* Set horizontal margin to auto */    
+  }
+}
+
+@media (max-width:  320px) {
+  .testimonial1 {
+    transform: scale(0.91); /* Set horizontal margin to auto */    
+    margin-left: -46%; /* Set horizontal margin to auto */    
   }
 }
 
@@ -553,6 +572,14 @@ body {
   }
 }
 
+@media (max-width: 320px) {
+  .footer {
+    margin-left: -50%;
+    margin-top: 15%;
+    transform: scale(0.8); /* Set horizontal margin to auto */    
+  }
+}
+
 @media (max-width: 390px) {
   .footersubtitles {
     margin-left: -5%;
@@ -564,6 +591,19 @@ body {
   .footersubtitles2 {
     margin-left: -5%;
   
+  }
+}
+
+@media (max-width: 320px) {
+  .footersubtitles2 {
+    margin-left: -10%;
+  
+  }
+}
+
+@media (max-width: 330px) {
+  .carouselsy {
+    transform: scale(0.8); /* Scale down to 80% */
   }
 }
 
