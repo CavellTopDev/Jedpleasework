@@ -39,31 +39,21 @@ const Footer: NextPage = () => {
         </div>
         <div className="flex flex-col items-start justify-start gap-[12px] text-sm text-title-text">
           <div className="relative tracking-[0.1px] leading-[18px] font-medium">
-            Blog
-          </div>
-          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
-            Newsletter
-          </div>
-          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
-            F.A.Q.
-          </div>
-        </div>
-      </div>
-      <div className="absolute h-[22.8%] w-[4.58%] top-[20.14%] right-[64.33%] bottom-[57.06%] left-[31.08%] flex flex-col items-start justify-start gap-[12px] footersubtitles2">
-        <div className="relative tracking-[0.2px] leading-[24px] font-medium">
-          Follow
-        </div>
-        <div className="flex flex-col items-start justify-start gap-[12px] text-sm text-title-text">
-          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
             Facebook
           </div>
           <div className="relative tracking-[0.1px] leading-[18px] font-medium">
             Instagram
           </div>
+          <div className="relative tracking-[0.1px] leading-[18px] font-medium">
+            *comanynum
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[22.8%] w-[4.58%] top-[20.14%] right-[64.33%] bottom-[57.06%] left-[31.08%] flex flex-col items-start justify-start gap-[12px] footersubtitles2">
           
         </div>
       </div>
-    </div>
+    
   );
 };
 

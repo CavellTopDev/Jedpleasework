@@ -23,7 +23,7 @@ const Testimoniallove: NextPage = () => {
               <Image
                 className="w-[698.2px] relative h-[636px] object-cover"
                 alt=""
-                src="/testimonialpic.webp"
+                src="/bullseye-gradient 2.svg"
                 width={700}
                 height={640}
               />

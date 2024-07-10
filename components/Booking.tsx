@@ -13,8 +13,8 @@ const Bookingsection: NextPage = () => {
       consultation not only refines your estimate but also pinpoints the
       ideal timing to initiate the design process.
      </div>
-      <button className="cursor-pointer mt-4 py-[9.3px] px-[12.4px] bg-[transparent] shadow-[0px_75.5px_20.98px_rgba(27,_114,_93,_0.01),_0px_48.4px_19.46px_rgba(27,_114,_93,_0.06),_0px_27.1px_16.4px_rgba(27,_114,_93,_0.2),_0px_12.2px_12.21px_rgba(27,_114,_93,_0.35),_0px_3.1px_6.49px_rgba(27,_114,_93,_0.4)] rounded-[77342.22px] bg-gradient-to-b from-teal-500 to-teal-600 w-[136px] h-[54px] flex items-center justify-right border-[2px] border-solid border-teal-200 buttonone">
-      <div className="w-[84px] relative text-[11.4px] leading-[94%] uppercase font-medium font-plus-jakarta-sans text-white text-right inline-block shrink-0">
+      <button className="cursor-pointer mt-4 py-[9.3px] px-[12.4px] bg-[transparent] shadow-[0px_75.5px_20.98px_rgba(27,_114,_93,_0.01),_0px_48.4px_19.46px_rgba(27,_114,_93,_0.06),_0px_27.1px_16.4px_rgba(27,_114,_93,_0.2),_0px_12.2px_12.21px_rgba(27,_114,_93,_0.35),_0px_3.1px_6.49px_rgba(27,_114,_93,_0.4)] rounded-[77342.22px] bg-gradient-to-b from-teal-500 to-teal-600 w-[136px] h-[54px] flex items-center justify-center border-[2px] border-solid border-teal-200 buttonone">
+      <div className="relative text-[11.4px] leading-[94%] uppercase font-medium font-plus-jakarta-sans text-white text-center">
         BOOK CALL
        </div>
       </button>
